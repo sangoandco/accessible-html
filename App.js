@@ -26,13 +26,19 @@ export default function App() {
       </p>
     </section>
     <section id="services" className="main__section">
-      <h2 className="main__section__title">Services</h2>
-      <ul>
-        <li>Service 1</li>
-        <li>Service 2</li>
-        <li>Service 3</li>
-      </ul>
-    </section>
+  <h2 className="main__section__title">Services</h2>
+  <div className="main__section__content">
+    <ul>
+      <li>Service 1</li>
+      <li>Service 2</li>
+      <li>Service 3</li>
+    </ul>
+    <figure className="main__section__img">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/50px-Smiley.svg.png" alt="Smiley Face" />
+      <figcaption>Smiley Face</figcaption>
+    </figure>
+  </div>
+</section>
     <section id="contact" className="main__section">
       <h2 className="main__section__title">Contact</h2>
       <p>Phone: 555-555-5555</p>
