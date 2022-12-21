@@ -1,0 +1,78 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header block */
+.header {
+  background-color: #eee;
+  padding: 20px;
+}
+
+/* Header block elements */
+.header__title {
+  font-size: 2em;
+  margin: 0;
+}
+
+.header__nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header block element modifiers */
+.header__nav--inline {
+  display: inline-block;
+}
+
+.header__nav__item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header__nav__link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main block */
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Main block elements */
+.main__section {
+  margin-bottom: 20px;
+}
+
+.main__section__title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* Main block element modifiers */
+.main__section__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer block */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer block element */
+.footer__copyright {
+  margin: 0;
+}
